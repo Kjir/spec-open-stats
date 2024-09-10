@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Specialist Cup in Stats - Water Division',
+  title: 'Specialist Cup in Stats - Open Division',
   tagline: 'Dinosaurs are cool',
   // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://salytmacska.github.io',
+  url: 'https://kjir.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/spec-water-stats/',
+  baseUrl: '/spec-open-stats/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Kjir', // Usually your GitHub org/user name.
-  projectName: 'spec-water-stats', // Usually your repo name.
+  projectName: 'spec-open-stats', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,7 +46,7 @@ const config: Config = {
     // Replace with your project's social card
     defaultMode: 'dark',
     navbar: {
-      title: 'Specialist Cup in Stats - Water Division',
+      title: 'Specialist Cup in Stats - Open Division',
       // logo: {
       //   alt: 'My Site Logo',
       //   src: 'img/logo.svg',

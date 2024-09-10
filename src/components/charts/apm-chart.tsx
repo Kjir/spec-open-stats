@@ -4,15 +4,15 @@ import useDelayedColorMode from "@site/src/utils/use-delayed-color-mode";
 
 Chart.register(PointElement);
 
-const bracketOrder = ['Commodore', 'Captain', 'Discoverer', 'Sailor'] as const;
+const bracketOrder = ['General', 'Lancer', 'Knight', 'Mercenary', 'Soldier', 'Recruit'] as const;
 type Bracket = typeof bracketOrder[number];
 const bracketColors: { [bracket in Bracket]: string } = {
-    Commodore: "#1f77b4",
-    Captain: "#ff7f0e",
-    Discoverer: "#2ca02c",
-    Sailor: "#d62728",
-    // "Light Cavs": "#9467bd",
-    // Pikemen: "#8c564b",
+    General: "#1f77b4",
+    Lancer: "#ff7f0e",
+    Knight: "#2ca02c",
+    Mercenary: "#d62728",
+    Soldier: "#9467bd",
+    Recruit: "#8c564b",
     // Longswords: "#e377c2",
     // Crossbows: "#7f7f7f",
     // Skirms: "#bcbd22",
