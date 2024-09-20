@@ -1,11 +1,12 @@
 import { Scatter } from "react-chartjs-2";
 import { Chart, PointElement } from 'chart.js'
 import useDelayedColorMode from "@site/src/utils/use-delayed-color-mode";
+import { BracketNameToImage } from "@site/src/data/mapping";
 
 Chart.register(PointElement);
 
-const bracketOrder = ['General', 'Lancer', 'Knight', 'Mercenary', 'Soldier', 'Recruit'] as const;
-type Bracket = typeof bracketOrder[number];
+type Bracket = keyof typeof BracketNameToImage
+const bracketOrder = Object.keys(BracketNameToImage) as Bracket[];
 const bracketColors: { [bracket in Bracket]: string } = {
     General: "#1f77b4",
     Lancer: "#ff7f0e",

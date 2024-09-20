@@ -1,3 +1,4 @@
+export const acceptableMisnamedMaps = {};
 export const mapDraftNameToGameNameMapping = {
     "Atacama": "SPEC Atacama",
     "Cliffbound": "SPEC Cliffbound",
@@ -21,3 +22,12 @@ export const GameNameMappingToDisplayName = {
     'SPEC Sacred Springs': 'Sacred Springs',
     'SPEC Sandrift': 'Sandrift',
 };
+
+export const BracketNameToImage = {
+    General: null,
+    Lancer: null,
+    Knight: null,
+    Mercenary: null,
+    Soldier: null,
+    Recruit: null,
+}
