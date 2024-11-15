@@ -7,8 +7,10 @@ export const mapDraftNameToGameNameMapping = {
     "Higher Ground": 'SPEC Higher Ground',
     "Land Madness": 'SPEC Land Madness',
     "Ravines": "SPEC Ravines",
+    "Rocky Forest": "SPEC Rocky Forest",
     "Sacred Springs": 'SPEC Sacred Springs',
     "Sandrift": 'SPEC Sandrift',
+    "Sheepfold": 'SPEC Sheepfold',
 };
 
 export const GameNameMappingToDisplayName = {
@@ -19,8 +21,10 @@ export const GameNameMappingToDisplayName = {
     'SPEC Higher Ground': 'Higher Ground',
     'SPEC Land Madness': 'Land Madness',
     'SPEC Ravines': 'Ravines',
+    'SPEC Rocky Forest': 'Rocky Forest',
     'SPEC Sacred Springs': 'Sacred Springs',
     'SPEC Sandrift': 'Sandrift',
+    'SPEC Sheepfold': 'Sheepfold',
 };
 
 export const BracketNameToImage = {
